@@ -1,7 +1,7 @@
 This is a boilerplate for new Serverless project. The project structure is descripted below:
 
 
-
+```
 / - root folder
 │
 └───lib - shared library between services within project
@@ -32,3 +32,4 @@ This is a boilerplate for new Serverless project. The project structure is descr
 │    └───service 2
 │
 └───tests - Tests for services or utils
+```
