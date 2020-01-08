@@ -27,7 +27,7 @@ custom:
     includeModules: true
 
 functions:
-  next-train:
-    handler: src/nextTrain.handler
+  list-stuff:
+    handler: src/list.handler
     events:
       - alexaSkill: abc.123

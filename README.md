@@ -1,4 +1,6 @@
-This is a boilerplate for new Serverless project. The project structure is descripted below: 
+This is a boilerplate for new Serverless project. The project structure is descripted below:
+
+
 
 / - root folder
 │
@@ -12,7 +14,7 @@ This is a boilerplate for new Serverless project. The project structure is descr
 │    │
 │    └───utils
 │
-└───services - Code for APIs 
+└───services - Code for APIs
 │    │
 │    └───service 1
 │    │    │
@@ -26,8 +28,7 @@ This is a boilerplate for new Serverless project. The project structure is descr
 │    │    └───servless.yaml (each service is a separate CF stack)
 │    │    │
 │    │    └───webpack.config.js
-│    │      
+│    │
 │    └───service 2
 │
 └───tests - Tests for services or utils
-    
