@@ -1,0 +1,15 @@
+{
+  "name": "hsl_alexa_lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asyncIterator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.0.0",
+    "axios": "^0.19.0"
+  }
+}
