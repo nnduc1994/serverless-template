@@ -1,5 +1,5 @@
 {
-  "name": "hsl_alexa_lib",
+  "name": "common_lib",
   "version": "1.0.0",
   "description": "",
   "main": "asyncIterator.js",

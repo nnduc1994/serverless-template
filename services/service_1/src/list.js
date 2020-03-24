@@ -2,7 +2,7 @@
 
 import middy from 'middy'
 import { cors } from 'middy/middlewares'
-import { defaultJson, boomErrorHandler } from 'lib/middleware'
+import { defaultJson, boomErrorHandler } from 'common_lib/middleware'
 
 const handler = async event => {
   return "helllo word"

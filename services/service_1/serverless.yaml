@@ -29,5 +29,3 @@ custom:
 functions:
   list-stuff:
     handler: src/list.handler
-    events:
-      - alexaSkill: abc.123
