@@ -1,6 +1,8 @@
 This is a boilerplate for new Serverless project. The project structure is descripted below:
 
+The project used mono repo style (lib and services) and using yarn workspace to handle dependencies easily
 
+To install all requires dependencies for lib and all services, run `yarn install` in the root of the project
 ```
 / - root folder
 │

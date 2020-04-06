@@ -1,7 +1,7 @@
 'use strict'
 
-import middy from 'middy'
-import { cors } from 'middy/middlewares'
+import middy from '@middy/core'
+import cors from '@middy/http-cors'
 import { defaultJson, boomErrorHandler } from 'common_lib/middleware'
 
 const handler = async event => {

@@ -23,9 +23,14 @@ custom:
   #   number: 1
   webpack:
     excludeFiles: '**/*.test.js'
-    packager: 'npm'
+    packager: 'yarn'
     includeModules: true
 
 functions:
   list-stuff:
     handler: src/list.handler
+    events:
+      - http:
+          path: list
+          method: get
+          cors: true

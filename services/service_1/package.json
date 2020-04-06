@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "common_lib": "file:../../lib",
-    "middy": "^0.33.2"
+    "common_lib": "1.0.0",
+    "@middy/core": "^1.0.0-beta.8",
+    "@middy/http-cors": "^1.0.0-beta.8"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.1.1",
